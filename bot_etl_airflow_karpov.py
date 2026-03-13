@@ -10,9 +10,9 @@ import io
 import pandahouse as pnd
 import datetime
 
-my_token = '8437216106:AAF9hhBPhI1dygR1QoN-E335jQa0LjzCM70'
+my_token = '<token>'
 bot = telegram.Bot(token=my_token)
-chat_id = 941917487 
+chat_id = '<id>' 
 
 connection = {
     'host': 'http://clickhouse.lab.karpov.courses:8123',
